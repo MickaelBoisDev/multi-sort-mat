@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espace entre l'input et le bouton */
+}
+
+.sort-input {
+  flex-grow: 1; /* L'input prend toute la largeur disponible */
+  padding: 8px;
+  border: 1px solid #ccc; /* Bordure de l'input */
+  border-radius: 4px; /* Coins arrondis */
+}
+
+button {
+  min-width: 80px; /* Largeur minimale pour le bouton */
+}
